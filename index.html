@@ -4,44 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Barber Shop</title>
 </head>
+
 <body>
-    <header>
-        <a href="#">
+    <header class="header-main-page">
+
+        <nav class="header-navigation">
+        <a class="header-logo-link link" href="#">
             <img src="images/header/logo.jpg" 
             alt="logo zakładu"
             width="69"
             height="56">
         </a>
     
-        <ul>
-            <li><a href="#about">O nas</a></li>
-            <li><a href="#services">Usługi i ceny</a></li>
-            <li><a href="#barbers">Barberzy</a></li>
-            <li><a href="#contact">Kontakt</a></li>
+        <ul class="navigation-list">
+            <li class="navigation-list-item">
+                <a class="navigation-list-item-link link" href="#about">O nas</a>
+            </li>
+            <li class="navigation-list-item">
+                <a class="navigation-list-item-link link" href="#services">Usługi i ceny</a>
+            </li>
+            <li class="navigation-list-item">
+                <a class="navigation-list-item-link link" href="#barbers">Barberzy</a>
+            </li>
+            <li class="navigation-list-item">
+                <a class="navigation-list-item-link link" href="#contact">Kontakt</a>
+            </li>
         </ul>
+        </nav>
 
-        <a href="tel:+48111111111">+48 111 111 111</a>
+        <address class="header-addres">
+            <a class="header-addres-phone" href="tel:+48111111111">+48 111 111 111</a>
+        </address>
 
-        <button type="button">REJESTRACJA ONLINE</button>
+        <button class="modal-btn" type="button">REJESTRACJA ONLINE</button>
 
     </header>
 
-    <main>
+    <main class="main-main-page">
         <!--HEROE-->
-        <section>
-            <div>
-                <ul>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Youtube</a></li>
+        <section class="heroe">
+            <div class="heroe-social-media">
+                <ul class="heroe-social-media-list">
+                    <li class="heroe-social-media-item">
+                        <a class="heroe-social-media-item-link link" href="#">Instagram</a>
+                    </li>
+                    <li class="heroe-social-media-item">
+                        <a class="heroe-social-media-item-link link" href="#">Youtube</a>
+                    </li>
                 </ul>
             </div>
 
-            <div>
-                <p>A hair salon for men in Kyiv</p>
-                <h1>BarberShop</h1>
-                <p>Jesteśmy ekspertami w strzyżeniu.
+            <div class="heroe-right-side">
+                <p class="heroe-right-side-name">A hair salon for men in Kyiv</p>
+                <h1 class="heroe-right-side-header">BarberShop</h1>
+                <p class="heroe-right-side-description">Jesteśmy ekspertami w strzyżeniu.
                 Pracujemy szybko, ostrożnie i elegancko.</p>
             </div>
         </section>

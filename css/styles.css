@@ -1,0 +1,94 @@
+:root {
+  --main-font: "Open Sans", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --white-color: #fff;
+  --orange-color: #ff6c00;
+  --grey-light-color: #9da4bd;
+  --grey-dark-color: #555555;
+  --black-color: #303030;
+  --rgba-color: rgba(157, 164, 189, 0.6);
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--black-color);
+}
+
+li {
+  list-style: none;
+}
+
+/* Header*/
+
+.header-main-page {
+  background-color: var(--black-color); /*to delete*/
+}
+
+.navigation-list-item-link,
+.header-addres-phone,
+.modal-btn {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.333;
+  letter-spacing: 0.1em;
+  color: var(--white-color);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.modal-btn {
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.navigation-list-item-link:hover,
+.header-addres-phone:hover,
+.navigation-list-item-link:focus,
+.header-addres-phone:focus {
+  color: var(--orange-color);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--orange-color);
+}
+
+/* Heroe*/
+.heroe-social-media-item-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+  color: inherit;
+}
+
+.heroe-social-media-item-link:hover,
+.heroe-social-media-item-link:focus {
+  color: var(--orange-color);
+}
+
+.heroe-right-side-name {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--rgba-color);
+}
+
+.heroe-right-side-header {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: var(--white-color);
+}
+
+.heroe-right-side-description {
+  font-size: 18px;
+  line-height: 1.667;
+  letter-spacing: 0.02em;
+  color: var(--grey-light-color);
+}
