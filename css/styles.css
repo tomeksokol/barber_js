@@ -36,9 +36,10 @@ li {
   font-style: normal;
 }
 
-.modal-btn {
+.modal-btn-1 {
   letter-spacing: 0.09em;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .navigation-list-item-link:hover,
@@ -48,8 +49,8 @@ li {
   color: var(--orange-color);
 }
 
-.modal-btn:hover,
-.modal-btn:focus {
+.modal-btn-1:hover,
+.modal-btn-1:focus {
   background-color: var(--orange-color);
 }
 
@@ -84,6 +85,7 @@ li {
   line-height: 1.18;
   letter-spacing: 0.05em;
   color: var(--white-color);
+  background-color: var(--grey-dark-color); /* to delete*/
 }
 
 .heroe-right-side-description {
@@ -91,4 +93,187 @@ li {
   line-height: 1.667;
   letter-spacing: 0.02em;
   color: var(--grey-light-color);
+}
+
+/* About */
+.about-right-side-undertitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.about-right-side-header {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.167;
+  letter-spacing: 0.05em;
+}
+
+.about-right-side-description-1 {
+  font-size: 18px;
+  line-height: 1.167;
+  letter-spacing: 0.02em;
+  color: var(--grey-dark-color);
+}
+
+.about-right-side-description-2 {
+  font-size: 14px;
+  line-height: 1.857;
+  letter-spacing: 0.02em;
+  color: var(--grey-dark-color);
+}
+
+.modal-btn-2 {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.333;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: solid 1px var(--orange-color);
+  border-radius: 25px;
+  background-color: var(--white-color);
+  padding: 10px 5px;
+}
+
+.modal-btn-2:hover,
+.modal-btn-2:focus {
+  background-color: var(--orange-color);
+  color: var(--white-color);
+}
+
+/*Services*/
+.services {
+  background-color: var(--grey-dark-color); /*to delete*/
+}
+
+.services-undertitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--rgba-color);
+}
+
+.services-header {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.167;
+  letter-spacing: 0.05em;
+  color: var(--white-color);
+}
+
+.services-left-list-name,
+.services-left-list-price,
+.services-right-list-name,
+.services-right-list-price {
+  font-size: 18px;
+  line-height: 1.667;
+  letter-spacing: 0.02em;
+  color: var(--grey-light-color);
+}
+
+.modal-btn-3 {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.333;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  cursor: pointer;
+  border: solid 1px var(--orange-color);
+  border-radius: 25px;
+  background-color: transparent;
+  padding: 10px 5px;
+}
+
+.modal-btn-3:hover,
+.modal-btn-3:focus {
+  background-color: var(--orange-color);
+  color: var(--white-color);
+}
+
+/*Why us*/
+.why-us-left-side-list-numbers {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.357;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.why-us-left-side-list-description {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  text-align: center;
+}
+
+.why-us-right-side-undertitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.why-us-right-side-header {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 1.167;
+  letter-spacing: 0.05em;
+}
+
+.why-us-right-side-description {
+  font-size: 18px;
+  line-height: 1.667;
+  letter-spacing: 0.02em;
+  color: var(--grey-dark-color);
+}
+
+/*Barbers*/
+.barbers {
+  background-color: #f7f7f7;
+}
+
+.barbers-undertitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.barbers-header {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.167;
+  letter-spacing: 0.05em;
+}
+
+.barbers-list-barber-name {
+  font-size: 18px;
+  line-height: 1.389;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.barbers-list-barber-ocupation {
+  font-size: 14px;
+  line-height: 1.357;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--orange-color);
+}
+
+.barbers-list-social-links-icon:hover,
+.barbers-list-social-links-icon:focus {
+  background-color: var(--orange-color);
 }
